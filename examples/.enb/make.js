@@ -10,7 +10,6 @@ module.exports = function(config) {
         destPath : 'server.specs',
         levels : ['server.blocks'],
         sourceLevels : [
-            { path : 'libs/bem-pr/spec.blocks', check : false },
             { path : 'server.blocks', check : true }
         ]
     });

@@ -1,8 +1,0 @@
-{
-  "name": "examples",
-  "private": true,
-  "dependencies": {
-    "bem-pr": "~0.11.0",
-    "bem-core": "~2.5.1"
-  }
-}
