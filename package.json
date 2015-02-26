@@ -1,0 +1,40 @@
+{
+  "name": "enb-bem-node-specs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dragn/enb-bem-node-specs.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dragn/enb-bem-node-specs/issues"
+  },
+  "homepage": "https://github.com/dragn/enb-bem-node-specs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "example": "enb -d examples make node-specs"
+  },
+  "devDependencies": {
+    "enb": "^0.15.0"
+  },
+  "dependencies": {
+    "bem-naming": "^0.5.1",
+    "borschik": "^1.3.2",
+    "enb-bem-pseudo-levels": "^0.2.6",
+    "enb-bem-techs": "^1.0.3",
+    "enb-bembundle": "^1.1.0",
+    "enb-borschik": "^1.5.0",
+    "enb-magic-factory": "^0.4.4",
+    "enb-modules": "^0.2.0",
+    "mocha": "^2.1.0",
+    "vow": "^0.4.8",
+    "vow-fs": "^0.3.4",
+    "ym": "^0.1.0"
+  }
+}
