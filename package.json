@@ -1,7 +1,7 @@
 {
   "name": "enb-bem-node-specs",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "ENB tool for unit-testing Node.js BEM-blocks",
   "main": "lib/index.js",
   "directories": {
     "example": "examples"
@@ -17,13 +17,11 @@
   },
   "homepage": "https://github.com/dragn/enb-bem-node-specs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm run example",
     "example": "enb -d examples make node-specs"
   },
-  "devDependencies": {
-    "enb": "^0.15.0"
-  },
   "dependencies": {
+    "enb": "^0.15.0",
     "async": "^0.9.0",
     "bem-naming": "^0.5.1",
     "borschik": "^1.3.2",
