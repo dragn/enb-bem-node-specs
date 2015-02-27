@@ -56,3 +56,7 @@ To run specs, execute task `specs` (or whichever task name you configured in `ma
 ```bash
 node_modules/.bin/enb make specs
 ```
+
+## Coverage
+
+Unsupported (yet...)
