@@ -1,6 +1,6 @@
 {
   "name": "enb-bem-node-specs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ENB tool for unit-testing Node.js BEM-blocks",
   "main": "lib/index.js",
   "directories": {
