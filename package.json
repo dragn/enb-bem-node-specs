@@ -2,6 +2,7 @@
   "name": "enb-bem-node-specs",
   "version": "0.0.2",
   "description": "ENB tool for unit-testing Node.js BEM-blocks",
+  "author": "Daniel Sabelnikov <dsabelnikov@gmail.com>",
   "main": "lib/index.js",
   "directories": {
     "example": "examples"
@@ -10,7 +11,6 @@
     "type": "git",
     "url": "https://github.com/dragn/enb-bem-node-specs.git"
   },
-  "author": "",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/dragn/enb-bem-node-specs/issues"
