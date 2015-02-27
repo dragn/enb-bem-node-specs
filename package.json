@@ -33,7 +33,6 @@
     "enb-magic-factory": "^0.4.4",
     "enb-modules": "^0.2.0",
     "mocha": "^2.1.0",
-    "should": "^5.0.1",
     "vow": "^0.4.8",
     "vow-fs": "^0.3.4",
     "ym": "^0.1.0"
