@@ -9,6 +9,7 @@ module.exports = function(config) {
     specs.configure({
         destPath : 'server.specs',
         levels : ['server.blocks'],
+        specSuffixes : ['node.spec.js'],
         sourceLevels : [
             { path : 'server.blocks', check : true }
         ]
