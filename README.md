@@ -59,4 +59,21 @@ node_modules/.bin/enb make specs
 
 ## Coverage
 
-Unsupported (yet...)
+`enb-bem-node-specs` supports code coverage measure with [`istanbul`](https://github.com/gotwarlost/istanbul)
+To enable it, add `coverageFile` option in `make.js`:
+```js
+...
+module.exports = function(config) {
+    ...
+    config.includeConfig('enb-bem-node-spec');
+
+    // 'specs' is the enb task name, you may change it if you like
+    var nodeSpecConfig = config.module('enb-bem-node-specs').createConfigurator('specs');
+    nodeSpecConfig({
+        destPath: 'server.specs', // where to put specs
+        levels: ['server.blocks'], // where are blocks' source codes located
+        coverageFile: 'coverage.json'
+    });
+}
+```
+Coverage info will be merged _into_ provided file, which helps to use `enb-bem-node-specs` with other tasks ([enb-bem-specs](https://github.com/enb-bem/enb-bem-specs), for example, also uses `coverage.json`)
