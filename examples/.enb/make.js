@@ -12,6 +12,7 @@ module.exports = function(config) {
         specSuffixes : ['node.spec.js'],
         sourceLevels : [
             { path : 'server.blocks', check : true }
-        ]
+        ],
+        coverageFile : 'coverage.json'
     });
 };
